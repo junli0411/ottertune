@@ -1,6 +1,9 @@
-from .async_tasks import (aggregate_results,
-                          aggregate_target_results,
-                          create_workload_mapping_data,
+#
+# OtterTune - __init__.py
+#
+# Copyright (c) 2017-18, Carnegie Mellon University Database Group
+#
+from .async_tasks import (aggregate_target_results,
                           configuration_recommendation,
                           map_workload)
 
